@@ -1,0 +1,10 @@
+<suite name="APISuite">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test name="User API Tests">
+    <classes>
+      <class name="tests.UserAPITest"/>
+    </classes>
+  </test>
+</suite>
